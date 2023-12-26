@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 64px;
+  background-color: #fafafa;
 }
 
 h1,
@@ -20,7 +21,9 @@ h2,
 p {
   color: var(--normal);
 }
-
+p {
+  opacity: 0.5;
+}
 /** H E A D E R **/
 
 header > h1 {
